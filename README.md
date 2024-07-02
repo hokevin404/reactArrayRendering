@@ -1,8 +1,24 @@
-# React + Vite
+# ALAB 320H.3.1 - Rendering Arrays from State
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Learning Objectives
+After completing this lab, learners will have demonstrated the ability to:
+  1) Create React components from arrays of data being stored in state.
 
-Currently, two official plugins are available:
+# Instructions
+This lab will test your ability to create components from arrays stored in state.
+The following requirements must be met for this lab to be considered successful:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1) The layout and styling of the site is left up to your discretion. There are no layout or styling requirements, but you should always make sure your web applications are neat, sensible, and provide a good user experience.
+2) Use the provided array of "learner" data below to initialize state as an object with a learners key in the <App> component.
+3) Code the <App> component to display a <Learner> component for each learner object in the learners array being held in state.
+4) Code the <Learner> component so that it:
+  a) Renders the learners's name & bio properties.
+  b) Renders a <Score> component for each score object in the learner's scores property.
+5) Code the <Score> component so that it renders the score object's date & score properties.
+
+# Technical Stack
+Frontend: React
+
+Build Tool: Vite
+
+Styling: CSS
